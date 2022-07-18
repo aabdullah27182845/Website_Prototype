@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Segoe Print Regular", sans-serif;
+}
+
+body {
+	background: linear-gradient(to right, floralwhite, navajowhite);
+}
+
+p {
+	font-family: "Ink Free Regular", sans-serif;
+}
+
+nav {
+	width: 95% ;
+	position: sticky;
+	margin:  20px auto;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+}
+
+.bar {
+	flex: 1;
+	text-align: right;
+}
+
+.bar ul li {
+	list-style: none;
+	display:  inline-block;
+	margin: 0 20px;
+	background: white;
+	font: black;
+}
+
+.bar ul li a {
+	text-decoration: none;
+	color:  black;
+}
+
+.mainWithCircle {
+	align-items: right;
+}
+
+.main-items {
+	margin: 20px auto;
+	background: white;
+	max-width: 40%;
+	align-content: right;
+	position: relative;
+	border:  3px solid transparent;
+	right: 25%;
+	top: 0;
+}
+
+.box2 {
+	margin: 20px auto;
+	background: whitesmoke;
+	max-width: 40%;
+	align-content: right;
+	position: relative;
+	border: 3px solid transparent;
+	right: 25%;
+	bottom: 10%;
+}
+
+.circle {
+	width: 600px;
+	height: 600px;
+	border-radius: 50%;
+}
